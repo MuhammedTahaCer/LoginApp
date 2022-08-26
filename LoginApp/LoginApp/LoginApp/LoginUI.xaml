@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="LoginApp.LoginUI"
+             xmlns:local="clr-namespace:LoginApp">
+    <ContentPage.Content>
+      <StackLayout  VerticalOptions="Center" HorizontalOptions="FillAndExpand" Padding="20">
+
+            <Entry x:Name="sicil"  Placeholder="Sicil Numarası"  PlaceholderColor="Gray" 
+                   Keyboard="Numeric" MaxLength="5" TabIndex="1" CursorPosition="1"
+                   
+                   />
+              <Grid>
+                <Entry x:Name="sifre" Placeholder="Şifre"   PlaceholderColor="Gray"  MaxLength="10" 
+                       IsPassword="{Binding Source={x:Reference LoginApp}, Path=HidePassword}"
+                       />
+                <ImageButton VerticalOptions="Center" Margin="0,0,10,0" HeightRequest="35" Padding="25" HorizontalOptions="End" Source="eye">
+                    <ImageButton.Triggers>
+                        <EventTrigger Event="Clicked">
+                            <local:Showide  Show="eye"
+                                            Hide="hidden"
+                                        x:Name="LoginApp"/>
+                        </EventTrigger>
+                    </ImageButton.Triggers>
+                </ImageButton>
+
+            </Grid>
+
+            <Button x:Name="btnGiris"
+                    Margin="20"
+                    Text="Giriş"
+                    TextColor="White"
+                    BackgroundColor="Black"
+                    BorderWidth="1.5"
+                    CornerRadius="50"     
+                    Clicked="Button_Clicked"
+                />
+          
+        </StackLayout>
+  </ContentPage.Content>
+</ContentPage>

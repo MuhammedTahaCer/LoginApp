@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "8rD4w/+q1Z8/1yVVNzDOSF4dNpyEQVZyDUWm/dlJeCRNbyAkzy9ZAe7pQOEjWFHnoSd8m4qx0BvBeQeLtHFcxg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\BLT YAZILIM\\Documents\\Visual Studio 2022\\LoginApp\\LoginApp\\LoginApp.iOS\\LoginApp.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\BLT YAZILIM\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\BLT YAZILIM\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
+    "C:\\Users\\BLT YAZILIM\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512"
+  ],
+  "logs": []
+}
